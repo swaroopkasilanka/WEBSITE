@@ -1,0 +1,83 @@
+body{
+    background-image: url(images/rb.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.login-page{
+    width: 360px;
+    padding: 10%,0,0;
+    margin-top: 150px;
+    margin-left: 450px;
+    
+}
+.form{
+    position: relative;
+    z-index: 1;
+    background: rgba(7, 40, 195, 0.3);
+    max-width: 500px;
+    margin:0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.form input {
+    padding: 10px;
+    font-family: sans-serif;
+    width: 60%;
+    background: #f2f2f2;
+    margin: auto;
+    
+    border: 0;
+    font-size: 15px;
+}
+.form button{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login-form{
+    position: relative;
+    z-index: 1;
+    background: rgba(7, 40, 195, 0.3);
+    max-width: 500px;
+    margin:0 auto 100px;
+    padding: 45px;
+    text-align: center;
+}
+.btn2{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4CAF50;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.login-form.input {
+    padding: 10px;
+    font-family: sans-serif;
+    width: 60%;
+    background: #f2f2f2;
+    margin: auto;
+    
+    border: 0;
+    font-size: 15px;
+}
+
+
+.form button:hover,.form button:active{
+    background: #43A047;
+}
+.login-form{
+    display: none;
+}

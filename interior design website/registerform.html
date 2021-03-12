@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register form</title>
+    <link rel="stylesheet" href="registerform.css">
+</head>
+<body>
+    
+    
+    <div class="login-page">
+        <div class="form">
+            <form action="idesign.html" class="register-form">
+               Username: <input type="text" placeholder="username"/> <br>  <br>
+               Password: <input type="text" placeholder="password"/> <br> <br>
+               Email id: <input type="text" placeholder="email id"/> <br> <br>
+                <button class="btn1" onclick="fn1()">create</button>
+                <p style="color: cornsilk;" class="message">Already registered? <a href="#" style="color: cornsilk;">Login</a> </p>
+            </form>
+            </div>
+            <div>
+            <form action="idesign.html" class="login-form">
+             Username:<input type="text" placeholder="username"/> <br><br>
+              Password:<input type="password" placeholder="password"/> <br><br>
+                <button class= "btn2" onclick="fn2()">Login</button>
+                <p style="color: cornsilk;" class="message1">Not registered? <a href="" style="color: cornsilk;">Register</a></p>
+            </form>
+        </div>
+    </div>
+    <script src=" https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script
+src="https://code.jquery.com/jquery-3.5.1.js"
+integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+crossorigin="anonymous"></script>
+</body>
+<script>
+    function fn1(){
+        alert("Thanks for creating your account!!");
+    }
+    function fn2(){
+        alert("Logged in successfully");
+    }
+    
+</script>
+<script>
+    $('.message a').click(function(){
+        $('.form').animate({height:"toggle",opacity:"toogle"});
+          $('.login-form').css('display','block');
+    });
+</script> 
+</html>
